@@ -11,13 +11,14 @@ com:
 
 server:
     port: 8888
+    context-path: /sell
 
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/taotao?characterEncoding=UTF-8
+    url: jdbc:mysql://192.168.40.199:3306/sell?characterEncoding=UTF-8
     username: root
-    password: 201017
+    password: 123456
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     database: Mysql
@@ -28,3 +29,10 @@ spring:
         properties:
           hibernate:
             dialect: org.hibernate.dialect.MySQL5Dialect
+
+
+logging:
+  pattern:
+    console: "%d - %msg%n"
+  level: info
+  file: E:\LogTest\sell\info.[%d].log
