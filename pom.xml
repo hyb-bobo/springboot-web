@@ -54,6 +54,11 @@
 			<artifactId>lombok</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+		</dependency>
+
 		<!--swagger测试-->
 		<dependency>
 			<groupId>io.springfox</groupId>

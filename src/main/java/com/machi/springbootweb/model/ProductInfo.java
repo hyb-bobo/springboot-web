@@ -30,4 +30,7 @@ public class ProductInfo {
     private Integer productStatus;
 
     private Integer categoryType;
+
+    public ProductInfo() {
+    }
 }

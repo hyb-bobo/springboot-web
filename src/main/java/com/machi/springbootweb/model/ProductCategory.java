@@ -29,6 +29,6 @@ public class ProductCategory {
 
     private Date updateTime;
 
-//    public ProductCategory() {
-//    }
+    public ProductCategory() {
+    }
 }
